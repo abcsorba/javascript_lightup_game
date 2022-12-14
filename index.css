@@ -1,0 +1,109 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(24, 24, 122);
+    color: white;
+}
+
+div {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    height: auto;
+}
+
+h1 {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: .5em;
+    color: orangered;
+}
+
+input {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    border-radius: 5px;
+    font-size: 12pt;
+    padding: .3em;
+}
+
+button {
+    margin-top: .3em;
+    margin-bottom: .3em;
+    padding: .5em;
+    font-weight: bold;
+    font-size: 12pt;
+    border-radius: 5px;
+    background-color: orangered;
+    border-color: orangered;
+    color: white;
+}
+
+p#rules {
+    width: 65%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: .5em;
+    text-align: justify;
+    font-size: 14pt;
+}
+
+p#savedGamesP {
+    font-size: 18pt;
+}
+
+table {
+    background-color: white;
+}
+
+table#savedGames {
+    border: 1px solid white;
+    background-color: rgb(24, 24, 122);
+    width: auto;
+    margin: auto;
+    margin-top: 1em;
+    border-radius: 5px;
+}
+
+table#savedGames tr:first-child td {
+
+    background-color: rgb(34, 34, 179);
+    ;
+}
+
+
+table#savedGames tr td {
+    border: solid 1px white;
+    font-size: 16pt;
+    height: auto;
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+table tr td {
+    border: solid 2px black;
+}
+
+td {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 20pt;
+    background-color: "";
+}
+
+button#back {
+    display: none;
+}
+
+button#save {
+    display: none;
+}
+
+
+
+
